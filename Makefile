@@ -2,8 +2,8 @@
 
 GOCMD=go
 GOTEST=$(GOCMD) test
-PROJECTNAME := $(shell basename "$(PWD)")
-BINARY_NAME?=$(PROJECTNAME)
+PROJECT_NAME := $(shell basename "$(PWD)")
+BINARY_NAME?=$(PROJECT_NAME)
 BIN_DIR?=bin
 TOOLS_DIR?=bin/tools
 

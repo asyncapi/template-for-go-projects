@@ -19,7 +19,7 @@ linters:
     - godot
     - gofumpt
     - goimports
-    - golint
+    - revive
     - goprintffuncname
     - gosec
     - gosimple

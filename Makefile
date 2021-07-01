@@ -20,9 +20,9 @@ GOLANGCILINT_VERSION = 1.40.1
 all: help
 
 ## Build:
-build: ## Build your project and put the output binary in out/bin/
+build: ## Build your project and put the output binary in bin/out
 	mkdir -p $(BIN_DIR)
-	$(GOCMD) build -o out/bin/$(BINARY_NAME) .
+	$(GOCMD) build -o bin/out/$(BINARY_NAME) .
 
 ## Linting:
 lint: $(TOOLS_DIR)/golangci-lint ## Run linters
